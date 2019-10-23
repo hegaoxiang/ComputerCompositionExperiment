@@ -47,8 +47,7 @@ void DealStrWithoutANSI(string& str)
 			const char b = 0xc1 + (str[i] - 'A');
 			str[i] = b;
 		}
-	}C:\Users\袁小仙\source\repos\计算机组成原理实验\3.1汉字编码实验\Resource
-}
+	}
 
 int main()
 {
